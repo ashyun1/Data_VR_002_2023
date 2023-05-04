@@ -93,6 +93,19 @@ Negative prompt:
 Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 1249873027, Size: 512x512, Model hash: 6ce0161689, Model: v1-5-pruned-emaonly, ControlNet Enabled: True, ControlNet Preprocessor: scribble_xdog, ControlNet Model: control_v11p_sd15_scribble [d4ba51ff], ControlNet Weight: 1, ControlNet Starting Step: 0, ControlNet Ending Step: 1, ControlNet Resize Mode: Crop and Resize, ControlNet Pixel Perfect: False, ControlNet Control Mode: Balanced, ControlNet Preprocessor Parameters: "(512, 32, 64)"
 
 
+---
+
+# Suffle (ControlNet 1.1)
+<!-- Image -->
+![Image](https://github.com/ashyun1/Data_VR_002_2023/blob/main/Stable%20Diffusion/00002-2135815465.png?raw=true)
+
+# Pix2Pix (ControlNet 1.1)
+<!-- Image -->
+![Image](https://github.com/ashyun1/Data_VR_002_2023/blob/main/Stable%20Diffusion/00003-2036259332.png?raw=true)
+
+> make cat gold color
+
+
 
 
 
