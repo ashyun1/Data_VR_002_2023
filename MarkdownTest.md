@@ -34,10 +34,10 @@
 3. 숫자 3
 
 <!-- Link -->
-Click [My Git hub](
+Click [My Git hub]
 
 <! -- Image -->
-![image]
+![image](https://github.com/ashyun1/Data_VR_002_2023/blob/main/Stable%20Diffusion/00001-3614841481.png?raw=true)
 
 <!-- Table -->
 |Header|Description|other|
@@ -64,6 +64,36 @@ Debug.Log(Message);
 - [x] #555
 - [ ] #556
 - [ ] #557
+
+#LineArt
+
+<!-- Image -->
+![Image](https://github.com/ashyun1/Data_VR_002_2023/blob/main/Stable%20Diffusion/00001-3614841481.png?raw=true)
+
+
+Prompt:
+> masterpiece, distinct, highres
+
+
+Nagative prompt:
+> blurry,Lowers
+
+# Scribble (ControlNet 1.1)
+<!-- Image -->
+![image](https://github.com/ashyun1/Data_VR_002_2023/blob/main/Stable%20Diffusion/00004-1249873027.png?raw=true)
+
+Prompt:
+> masterpiece,distinct,highres,lineart, white background, extremely detailed thick line drawing
+
+Negative prompt:
+> blurry,Lowers
+
+
+---
+Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 1249873027, Size: 512x512, Model hash: 6ce0161689, Model: v1-5-pruned-emaonly, ControlNet Enabled: True, ControlNet Preprocessor: scribble_xdog, ControlNet Model: control_v11p_sd15_scribble [d4ba51ff], ControlNet Weight: 1, ControlNet Starting Step: 0, ControlNet Ending Step: 1, ControlNet Resize Mode: Crop and Resize, ControlNet Pixel Perfect: False, ControlNet Control Mode: Balanced, ControlNet Preprocessor Parameters: "(512, 32, 64)"
+
+
+
 
 
 
