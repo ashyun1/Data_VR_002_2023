@@ -17,6 +17,13 @@ public class Entity_Dialogue : ScriptableObject
 	public class Param
 	{
 		
+		public int index;
+		public int speakUIindex;
+		public string name;
+		public string dialogue;
+		public string characterPath;
+		public int tweenType;
+		public int nextindex;
 	}
 }
 

@@ -10,7 +10,7 @@ using NPOI.SS.UserModel;
 public class DialogueDB_importer : AssetPostprocessor {
 	private static readonly string filePath = "Assets/Resources/ExcelDB/DialogueDB.xlsx";
 	private static readonly string exportPath = "Assets/Resources/ExcelDB/DialogueDB.asset";
-	private static readonly string[] sheetNames = {  };
+	private static readonly string[] sheetNames = { "Sheet1", };
 	
 	static void OnPostprocessAllAssets (string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
 	{
@@ -50,6 +50,13 @@ public class DialogueDB_importer : AssetPostprocessor {
 						
 						Entity_Dialogue.Param p = new Entity_Dialogue.Param ();
 						
+					cell = row.GetCell(0); p.index = (int)(cell == null ? 0 : cell.NumericCellValue);
+					cell = row.GetCell(1); p.speakUIindex = (int)(cell == null ? 0 : cell.NumericCellValue);
+					cell = row.GetCell(2); p.name = (cell == null ? "" : cell.StringCellValue);
+					cell = row.GetCell(3); p.dialogue = (cell == null ? "" : cell.StringCellValue);
+					cell = row.GetCell(4); p.characterPath = (cell == null ? "" : cell.StringCellValue);
+					cell = row.GetCell(5); p.tweenType = (int)(cell == null ? 0 : cell.NumericCellValue);
+					cell = row.GetCell(6); p.nextindex = (int)(cell == null ? 0 : cell.NumericCellValue);
 						s.list.Add (p);
 					}
 					data.sheets.Add(s);
