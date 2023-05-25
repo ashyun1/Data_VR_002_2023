@@ -32,9 +32,9 @@ Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 347587528, Size: 512x512, Model
 <!-- Image -->
 ![image](https://github.com/ashyun1/Data_VR_002_2023/blob/main/Stable%20Diffusion/00008-880187390.png?raw=true)
 
-> make her hair color red
+> make he hair color red
 
 # OpenPose
 
-![image](https://github.com/shingugitvr000/Data_VR_002_2023/blob/main/Stable%20Diffusion/OpenPose_before.png?raw=true)
-![image](https://github.com/shingugitvr000/Data_VR_002_2023/blob/main/Stable%20Diffusion/OpenPose_Result.png?raw=true)
+![image](https://github.com/ashyun1/Data_VR_002_2023/blob/main/Stable%20Diffusion/00023-3298472312.png?raw=true)
+![image](https://github.com/ashyun1/Data_VR_002_2023/blob/main/Stable%20Diffusion/00026-3804092176.png?raw=true)
